@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<body>
+    <!--ボディ開始-->
+    <main id="box-body">
+        <!--日付期間（非表示）-->
+        <div>
+            <form id="form1">
+                <input type="date" name="from" id="datefrom">
+                <input type="date" name="to" id="dateto">
+            </form>
+        </div>
+
+        <!--週選択ボタン-->
+        <div class="button_container">
+            <div class="Button Radius5" id="IconList2">
+                <a href="#" onclick="weekChange('prev');">前週</a>
+            </div>
+            <div class="Button Radius5" id="IconList2">
+                <a href="#" onclick="weekChange('next');">翌週</a>
+            </div>
+        </div>
+
+        <!--スケジュールテーブル-->
+        <div id="scroll">
+            <div id='append_area'></div>
+        </div>
+        <!--</div>-->
+    </main>
+    <!--ボディ終了-->
+
+</body>
+</html>

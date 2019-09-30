@@ -1,0 +1,126 @@
+#datefrom,
+#dateto {
+    display: none;
+}
+
+#scroll {
+    height: 600px;
+    overflow: hidden;
+}
+
+.button_container {
+    overflow: hidden;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.Button {
+    float: left;
+    overflow: hidden;
+    width: 100px;
+    height: 30px;
+    margin-right: 5px;
+    padding: 0;
+}
+
+.Button a {
+    display: block;
+    position: relative;
+    z-index: 100;
+    text-align: center;
+    background: #ccc;
+    color: #555;
+    font-size: 12px;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.Button a:hover {
+    background: #ddd;
+    /* マウスオーバーカラー */
+}
+
+.currentRow,
+.currentCol {
+    background: #f0f8ff !important;
+}
+
+/*Handsontable用*/
+
+.handsontable thead th {
+    background-color: #dce7ff;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.handsontable td:nth-child(1){
+    width: 70px;
+    text-align: center;
+    vertical-align: middle;
+}
+.handsontable td:nth-child(2){
+    font-size: 14px;
+    width: 70px;
+    /*text-align: center;*/
+    vertical-align: middle;
+}
+.handsontable td,
+.handsontable th{
+    padding:2px;
+}
+@media (min-width: 425px) {
+
+    .handsontable td,
+    .handsontable th {
+        font-size: 14px;
+        width: 60px;
+        height: 42px;
+        word-break: break-all;
+    }
+
+}
+
+@media (min-width: 600px) {
+
+    .handsontable td,
+    .handsontable th {
+        font-size: 14px;
+        width: 70px;
+        height: 42px;
+    }
+
+
+}
+
+@media (min-width: 768px) {
+
+    .handsontable td,
+    .handsontable th {
+        font-size: 16px;
+        width: 80px;
+        height: 42px;
+    }
+}
+
+@media (min-width: 960px) {
+
+    .handsontable td,
+    .handsontable th {
+        font-size: 16px;
+        width: 95px;
+        height: 42px
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .handsontable td,
+    .handsontable th {
+        font-size: 16px;
+        width: 100px;
+        height: 45px
+    }
+}
+
+/*Handsontable用 終了*/
